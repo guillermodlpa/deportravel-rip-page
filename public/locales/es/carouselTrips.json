@@ -1,0 +1,34 @@
+{
+  "runningDunesJordania": {
+    "title": "Carrera en las dunas de Jordania",
+    "sport": "Running",
+    "location": "Jordania",
+    "dates": "19 - 25 septiembre 2022",
+    "price": "Desde 863€",
+    "imageAlt": "Corredores en el desierto"
+  },
+  "vietnamVtt2022": {
+    "title": "Vietnam BTT 2022",
+    "sport": "Ciclismo",
+    "location": "Vietnam",
+    "dates": "1 - 13 noviembre 2022",
+    "price": "Desde 1479€",
+    "imageAlt": "Ciclistas en Vietnam"
+  },
+  "trianguloDeOroNanMoto": {
+    "title": "El triángulo de Oro y Nan en moto",
+    "sport": "Motociclismo",
+    "location": "Tailandia",
+    "dates": "14 - 27 enero 2023",
+    "price": "2950€",
+    "imageAlt": "Tailandia"
+  },
+  "yogaMeditacionAgonda": {
+    "title": "Retiro vegano de yoga y meditación en Agonda, Goa",
+    "sport": "Yoga",
+    "location": "India, Agonda, Goa",
+    "dates": "15 - 24 enero 2023",
+    "price": "Desde 765€",
+    "imageAlt": "Persona haciendo yoga"
+  }
+}
