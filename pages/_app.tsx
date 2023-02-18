@@ -1,6 +1,10 @@
 import Head from "next/head";
 import { appWithTranslation } from "next-i18next";
 
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
 function MyApp({ Component, pageProps }) {
   return (
     <>

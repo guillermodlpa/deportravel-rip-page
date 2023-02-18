@@ -1,7 +1,0 @@
-{
-  "emailInputLabel": "Email",
-  "buttonLabel": "Sign up",
-  "confirmationTitle": "Saved. Thank you!",
-  "confirmationBody": "We'll email {{email}} when the time comes",
-  "defaultErrorMessage": "An error ocurred"
-}

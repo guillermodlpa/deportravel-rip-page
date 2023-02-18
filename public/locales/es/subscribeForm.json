@@ -1,7 +1,0 @@
-{
-  "emailInputLabel": "Email",
-  "buttonLabel": "Avísame",
-  "confirmationTitle": "Guardado. ¡Gracias!",
-  "confirmationBody": "Avisaremos a {{email}} cuando llegue el momento",
-  "defaultErrorMessage": "Ha ocurrido un error"
-}

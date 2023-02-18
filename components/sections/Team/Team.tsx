@@ -26,6 +26,7 @@ export default function Team() {
       role: t("antonioTitle"),
       image: antonioTeamMemberImage,
       linkedInProfileUrl: "https://www.linkedin.com/in/antoniogonzalezsanchis/",
+      websiteUrl: "https://productcontractor.com/",
     },
     {
       name: "Allie DeCastro",
@@ -33,12 +34,14 @@ export default function Team() {
       image: allieTeamMemberImage,
       linkedInProfileUrl:
         "https://www.linkedin.com/in/allie-decastro-b26a9452/",
+      websiteUrl: undefined,
     },
     {
       name: "Guillermo de la Puente",
       role: t("guillermoTitle"),
       image: guillermoTeamMemberImage,
       linkedInProfileUrl: "https://www.linkedin.com/in/guillermodlpa/",
+      websiteUrl: "https://guillermodlpa.com",
     },
   ];
 
@@ -112,6 +115,15 @@ export default function Team() {
                     }}
                     secondaryTypographyProps={{ textAlign: "center" }}
                   />
+                  {teamMember.websiteUrl && (
+                    <Link
+                      href={teamMember.websiteUrl}
+                      rel="noopener"
+                      target="_blank"
+                    >
+                      {teamMember.websiteUrl}
+                    </Link>
+                  )}
                   <Link
                     href={teamMember.linkedInProfileUrl}
                     color="secondary"

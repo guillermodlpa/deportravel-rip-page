@@ -8,7 +8,6 @@ import {
 import { Trans, useTranslation } from "next-i18next";
 import Section from "../../shared/Section";
 import StyledAppName from "../../shared/StyledAppName";
-import SubscribeForm from "../../shared/SubscribeForm";
 import Carousel from "./Carousel";
 import LanguageMenu from "./LanguageMenu";
 
@@ -98,8 +97,6 @@ export default function Hero() {
                 {t("body2")}
               </Typography>
             </Box>
-
-            <SubscribeForm />
           </Box>
 
           {!smallViewport && (

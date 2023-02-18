@@ -3,7 +3,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import Hero from "../components/sections/Hero";
-import Quotes from "../components/sections/Quotes";
+import Showcase from "../components/sections/Showcase";
 import Subscribe from "../components/sections/Subscribe";
 import AppFooter from "../components/sections/AppFooter";
 import AppThemeProvider from "../components/theme/AppThemeProvider";
@@ -25,7 +25,7 @@ function SqueezePage() {
       <CssBaseline />
       <AppThemeProvider>
         <Hero />
-        <Quotes />
+        <Showcase />
         <Team />
         <Subscribe />
         <AppFooter />
